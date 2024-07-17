@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Patrick Hand', 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #fff8e0;
@@ -34,6 +34,10 @@ h2 {
     margin: 10px 0px;
 }
 
+h3 {
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -59,6 +63,12 @@ img {
     border-radius: 15px;
 }
 
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 /* Buttons */
 .btn-brown-link {
@@ -69,11 +79,11 @@ img {
     font-weight: bold;
     margin: 20px;
     padding: 0.7em 2em;
-    border: 3px solid #08B39F;
+    border: 3px solid #706d65;
     border-radius: 2px;
     position: relative;
-    box-shadow: 0 0 15px 10px #009688;
-    color: #08B39F;
+    box-shadow: 0 0 15px 10px #8b805f;
+    color: #706d65;
     text-decoration: none;
     transition: 0.3s ease all;
     z-index: 1;
@@ -89,7 +99,7 @@ img {
     bottom: 0;
     opacity: 0;
     content: "";
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(191, 192, 147);
     z-index: -1;
     transform: scale(1.2);
     border-radius: 20px;
@@ -102,7 +112,7 @@ img {
     left: 0;
     right: 0;
     opacity: 1;
-    box-shadow: 0 0 30px 20px #009688;
+    box-shadow: 0 0 30px 20px #706d65;
   }
   
   .btn-brown-link:active {
@@ -111,7 +121,6 @@ img {
   
 
 a {
-    color: #009688;
     text-decoration: none;
 }
 
